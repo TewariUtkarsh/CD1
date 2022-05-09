@@ -2,7 +2,7 @@ keywords    = ["void", "main", "int", "float", "bool", "if", "for", "else", "whi
 operators   = ["=", "==", "+", "-", "*", "/", "++", "--", "+=", "-=", "!=", "||", "&&"]
 punctuations= [";", "(", ")", "{", "}", "[", "]"]
 
-line = 'int a = b + c ;'
+line = input('Enter the input : ')
 
 def is_int(x):
     try:
